@@ -1,0 +1,28 @@
+commit e70c6db691d13d8803e6525a5b2a7471931f9cc4 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: hyperld <nikolai1401@gmail.com>
+Date:   Wed Apr 5 18:03:16 2023 +0200
+
+    Fix methods sumEvenNumbers
+
+commit 7a2bf1fa0751296ee660e778fcd489c7b1d11bea
+Merge: 4c79e14 154c242
+Author: hyperld <nikolai1401@gmail.com>
+Date:   Wed Apr 5 18:04:37 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 154c24293fc3e410fdf16954afd37274bf637112 (origin/bug2, bug2)
+Author: hyperld <nikolai1401@gmail.com>
+Date:   Wed Apr 5 18:02:01 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 4c79e14e00a8c87af2eee823c204ec0cc8a73704 (origin/bug1, bug1)
+Author: hyperld <nikolai1401@gmail.com>
+Date:   Wed Apr 5 18:00:45 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 0bcba6d62292066022824313115231b89041b231
+Author: hyperld <nikolai1401@gmail.com>
+Date:   Wed Apr 5 17:59:18 2023 +0200

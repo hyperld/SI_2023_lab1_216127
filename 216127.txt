@@ -1,0 +1,86 @@
+4.
+C:\Users\nikol>mkdir SI_2023_lab1_216127
+
+C:\Users\nikol>cd SI_2023_lab1_216127
+
+C:\Users\nikol\SI_2023_lab1_216127>git init
+
+5.
+C:\Users\nikol\SI_2023_lab1_216127>git remote add origin
+
+C:\Users\nikol\SI_2023_lab1_216127>git remote add origin https://github.com/hyperld/SI_2023_lab1_216127.git
+6.
+C:\Users\nikol\SI_2023_lab1_216127>echo >> README.md
+
+C:\Users\nikol\SI_2023_lab1_216127>start README.md
+
+C:\Users\nikol\SI_2023_lab1_216127>git add README.md
+
+C:\Users\nikol\SI_2023_lab1_216127>git commit -m "Initial commit"
+7.
+C:\Users\nikol\SI_2023_lab1_216127>echo >> SILab1.java
+
+C:\Users\nikol\SI_2023_lab1_216127>start SILab1.java
+
+C:\Users\nikol\SI_2023_lab1_216127>git add SILab1.java
+
+C:\Users\nikol\SI_2023_lab1_216127>git commit -m "Add java class"
+9.
+C:\Users\nikol\SI_2023_lab1_216127>git branch bug1
+
+C:\Users\nikol\SI_2023_lab1_216127>git branch bug2
+
+C:\Users\nikol\SI_2023_lab1_216127>git branch bug3
+10.
+C:\Users\nikol\SI_2023_lab1_216127>git checkout bug1
+11.
+C:\Users\nikol\SI_2023_lab1_216127>start SILab1.java
+
+C:\Users\nikol\SI_2023_lab1_216127>git add .
+
+C:\Users\nikol\SI_2023_lab1_216127>git commit -m "Fix wrong loop for reading"
+12.
+C:\Users\nikol\SI_2023_lab1_216127>git checkout bug2
+13.
+C:\Users\nikol\SI_2023_lab1_216127>start SILab1.java
+
+C:\Users\nikol\SI_2023_lab1_216127>git add .
+
+C:\Users\nikol\SI_2023_lab1_216127>git commit -m "Fix wrong condition in filterOddNumbers"
+14.
+C:\Users\nikol\SI_2023_lab1_216127>git checkout bug3
+15.
+C:\Users\nikol\SI_2023_lab1_216127>start SILab1.java
+
+C:\Users\nikol\SI_2023_lab1_216127>git add .
+
+C:\Users\nikol\SI_2023_lab1_216127>git commit -m "Fix methods sumEvenNumbers"
+16.
+C:\Users\nikol\SI_2023_lab1_216127>git push origin --all
+17.
+C:\Users\nikol\SI_2023_lab1_216127>git checkout master
+18.
+C:\Users\nikol\SI_2023_lab1_216127>git merge bug1
+19.
+C:\Users\nikol\SI_2023_lab1_216127>git push origin --all
+20.
+C:\Users\nikol\SI_2023_lab1_216127>git merge bug2
+21.
+C:\Users\nikol\SI_2023_lab1_216127>git push origin --all
+22.
+C:\Users\nikol\SI_2023_lab1_216127>git checkout bug3
+23.
+C:\Users\nikol\SI_2023_lab1_216127>git rebase master
+24.
+C:\Users\nikol\SI_2023_lab1_216127>git checkout master
+25.
+C:\Users\nikol\SI_2023_lab1_216127>git merge bug3
+26.
+C:\Users\nikol\SI_2023_lab1_216127>git push --force origin bug3
+27.
+C:\Users\nikol\SI_2023_lab1_216127>git log
+C:\Users\nikol\SI_2023_lab1_216127>git add --all
+C:\Users\nikol\SI_2023_lab1_216127>git commit -m "Final commit"
+28.
+
+C:\Users\nikol\SI_2023_lab1_216127>git push origin --all
